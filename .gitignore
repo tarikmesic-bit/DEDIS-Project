@@ -3,3 +3,26 @@ __pycache__/
 *.py[cod]
 .env
 .DS_Store
+
+# Local dashboard password
+/password.txt
+
+# Generated services and bundled example apps
+/apps/.service/
+/apps/_dashboard/
+/apps/_documentation/
+/apps/_minimal/
+/apps/_scaffold/
+/apps/showcase/
+
+# Local application data
+/apps/*/databases/
+/apps/*/uploads/
+/apps/*/sessions/
+/apps/*/errors/
+
+# Private local settings
+.env.*
+!.env.example
+settings_private.py
+*.log
